@@ -1,3 +1,7 @@
+[go somewhere](metaEndpoint_success/index.html)
+----------
+# ABOVE THIS IS THE MAGIC
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/sidjtd/documentation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
