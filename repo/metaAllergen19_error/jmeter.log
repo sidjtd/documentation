@@ -1,0 +1,634 @@
+2018-05-23 13:32:10,102 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2018-05-23 13:32:10,121 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/user.properties
+2018-05-23 13:32:10,121 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/system.properties
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: Copyright (c) 1998-2018 The Apache Software Foundation
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: Version 4.0 r1823414
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: java.version=1.8.0_171
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: os.arch=x86_64
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: os.version=10.13.4
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: Max memory     =2147483648
+2018-05-23 13:32:10,127 INFO o.a.j.JMeter: Available Processors =8
+2018-05-23 13:32:10,131 INFO o.a.j.JMeter: Default Locale=English (EN)
+2018-05-23 13:32:10,131 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2018-05-23 13:32:10,131 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/4.0/libexec
+2018-05-23 13:32:10,131 INFO o.a.j.JMeter: user.dir  =/Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest
+2018-05-23 13:32:10,131 INFO o.a.j.JMeter: PWD       =/Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest
+2018-05-23 13:32:10,133 INFO o.a.j.JMeter: IP: 192.168.1.161 Name: HRGAdministrators-MacBook-Pro.local FullName: 192.168.1.161
+2018-05-23 13:32:10,134 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest/metaAllergenParallelTestGraphs'
+2018-05-23 13:32:10,136 INFO o.a.j.s.FileServer: Default base='/Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest'
+2018-05-23 13:32:10,140 INFO o.a.j.s.FileServer: Set new base='/Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest'
+2018-05-23 13:32:10,260 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-05-23 13:32:10,276 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-05-23 13:32:10,281 INFO o.a.j.s.SaveService: Using SaveService properties version 4.0
+2018-05-23 13:32:10,287 INFO o.a.j.s.SaveService: Loading file: VICSStressTestRig.jmx
+2018-05-23 13:32:10,330 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-23 13:32:10,331 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-23 13:32:10,331 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-23 13:32:10,331 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-05-23 13:32:10,331 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-05-23 13:32:10,331 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-05-23 13:32:10,356 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-05-23 13:32:10,356 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-05-23 13:32:10,356 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-05-23 13:32:10,356 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-05-23 13:32:10,452 INFO o.a.j.JMeter: Creating summariser <summary>
+2018-05-23 13:32:10,457 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2018-05-23 13:32:10,458 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: metaAllergenParallelResults.csv
+2018-05-23 13:32:10,458 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /usr/local/Cellar/jmeter/4.0/libexec/bin/reportgenerator.properties
+2018-05-23 13:32:10,460 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2018-05-23 13:32:10,464 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2018-05-23 13:32:10,467 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2018-05-23 13:32:10,467 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2018-05-23 13:32:10,468 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2018-05-23 13:32:10,473 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,474 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,475 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,475 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,475 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2018-05-23 13:32:10,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2018-05-23 13:32:10,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2018-05-23 13:32:10,476 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2018-05-23 13:32:10,481 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-05-23 13:32:10,481 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-05-23 13:32:10,482 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-05-23 13:32:10,485 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-05-23 13:32:10,486 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-05-23 13:32:10,807 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
+2018-05-23 13:32:10,808 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
+2018-05-23 13:32:10,820 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
+2018-05-23 13:32:10,826 INFO o.a.j.JMeter: Running test (1527118330825)
+2018-05-23 13:32:10,861 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc Ultima Thread - Meta Allergen Only
+2018-05-23 13:32:10,861 INFO o.a.j.e.StandardJMeterEngine: Starting 32 threads for group jp@gc Ultima Thread - Meta Allergen Only.
+2018-05-23 13:32:10,861 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-05-23 13:32:10,862 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 32
+2018-05-23 13:32:10,879 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2018-05-23 13:32:10,879 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-05-23 13:32:11,834 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:12,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:13,826 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:14,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:15,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:16,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:17,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:18,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:19,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:20,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:21,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:22,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:23,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:24,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:25,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:26,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:27,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:28,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:29,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:30,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:31,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:32,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:33,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:34,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:35,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:36,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:37,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:38,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:39,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:40,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:41,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:42,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:43,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:44,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:45,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:46,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:47,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:48,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:49,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:50,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:51,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:52,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:53,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:54,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:55,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:56,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:57,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:58,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:32:59,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:00,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:01,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:02,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:03,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:04,824 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:05,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:05,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-8
+2018-05-23 13:33:06,416 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = HRGAdministrators-MacBook-Pro.local
+2018-05-23 13:33:06,420 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-05-23 13:33:06,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:07,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:08,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:09,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:10,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:10,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-7
+2018-05-23 13:33:11,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:12,825 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:13,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:14,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:15,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:15,862 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-6
+2018-05-23 13:33:16,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:17,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:18,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:19,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:20,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:20,864 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-5
+2018-05-23 13:33:21,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:22,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:23,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:24,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:25,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:25,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-4
+2018-05-23 13:33:26,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:27,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:28,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:29,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:30,502 INFO o.a.j.r.Summariser: summary +     13 in 00:01:20 =    0.2/s Avg:  4097 Min:  2388 Max:  5786 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2018-05-23 13:33:30,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:30,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-3
+2018-05-23 13:33:31,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:32,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:33,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:34,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:35,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:35,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-2
+2018-05-23 13:33:36,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:37,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:38,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:39,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:40,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:40,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-1
+2018-05-23 13:33:41,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:42,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:43,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:44,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:45,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:46,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:47,823 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:48,822 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:49,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:50,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:51,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:52,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:53,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:54,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:55,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:55,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-16
+2018-05-23 13:33:56,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:57,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:58,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:33:59,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:00,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:00,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-15
+2018-05-23 13:34:01,819 INFO o.a.j.r.Summariser: summary +     19 in 00:00:31 =    0.6/s Avg:  9778 Min:  6270 Max: 12400 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2018-05-23 13:34:01,819 INFO o.a.j.r.Summariser: summary =     32 in 00:01:51 =    0.3/s Avg:  7470 Min:  2388 Max: 12400 Err:     0 (0.00%)
+2018-05-23 13:34:01,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:02,821 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:03,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:04,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:05,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:05,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-14
+2018-05-23 13:34:06,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:07,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:08,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:09,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:10,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:10,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-13
+2018-05-23 13:34:11,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:12,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:13,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:14,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:15,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:15,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-12
+2018-05-23 13:34:16,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:17,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:18,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:19,820 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:20,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:20,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-11
+2018-05-23 13:34:21,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:22,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:23,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:24,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:25,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:25,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-10
+2018-05-23 13:34:26,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:27,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:28,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:29,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:30,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:30,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-9
+2018-05-23 13:34:31,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:32,062 INFO o.a.j.r.Summariser: summary +     19 in 00:00:30 =    0.6/s Avg: 15313 Min: 11813 Max: 19577 Err:     0 (0.00%) Active: 16 Started: 16 Finished: 0
+2018-05-23 13:34:32,063 INFO o.a.j.r.Summariser: summary =     51 in 00:02:21 =    0.4/s Avg: 10392 Min:  2388 Max: 19577 Err:     0 (0.00%)
+2018-05-23 13:34:32,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:33,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:34,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:35,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:36,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:37,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:38,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:39,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:40,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:41,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:42,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:43,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:44,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:45,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:45,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-24
+2018-05-23 13:34:46,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:47,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:48,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:49,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:50,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:50,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-23
+2018-05-23 13:34:51,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:52,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:53,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:54,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:55,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:55,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-22
+2018-05-23 13:34:56,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:57,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:58,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:34:59,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:00,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:00,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-21
+2018-05-23 13:35:01,643 INFO o.a.j.r.Summariser: summary +     18 in 00:00:30 =    0.6/s Avg: 22819 Min: 19675 Max: 27703 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2018-05-23 13:35:01,644 INFO o.a.j.r.Summariser: summary =     69 in 00:02:51 =    0.4/s Avg: 13634 Min:  2388 Max: 27703 Err:     0 (0.00%)
+2018-05-23 13:35:01,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:02,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:03,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:04,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:05,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:05,867 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-20
+2018-05-23 13:35:06,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:07,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:08,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:09,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:10,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:10,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-19
+2018-05-23 13:35:11,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:12,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:13,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:14,819 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:15,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:15,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-18
+2018-05-23 13:35:16,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:17,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:18,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:19,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:20,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:20,865 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-17
+2018-05-23 13:35:21,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:22,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:23,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:24,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:25,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:26,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:27,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:28,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:29,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:30,532 INFO o.a.j.r.Summariser: summary +     16 in 00:00:29 =    0.6/s Avg: 28516 Min: 24389 Max: 33225 Err:     0 (0.00%) Active: 24 Started: 24 Finished: 0
+2018-05-23 13:35:30,533 INFO o.a.j.r.Summariser: summary =     85 in 00:03:20 =    0.4/s Avg: 16435 Min:  2388 Max: 33225 Err:     0 (0.00%)
+2018-05-23 13:35:30,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:31,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:32,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:33,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:34,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:35,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:35,864 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-32
+2018-05-23 13:35:36,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:37,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:38,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:39,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:40,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:40,864 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-31
+2018-05-23 13:35:41,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:42,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:43,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:44,818 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:45,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:45,864 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-30
+2018-05-23 13:35:46,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:47,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:48,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:49,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:50,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:50,864 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-29
+2018-05-23 13:35:51,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:52,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:53,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:54,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:55,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:55,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-28
+2018-05-23 13:35:56,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:57,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:58,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:35:59,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:00,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:00,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-27
+2018-05-23 13:36:00,886 INFO o.a.j.r.Summariser: summary +     17 in 00:00:30 =    0.6/s Avg: 36953 Min: 31928 Max: 40899 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2018-05-23 13:36:00,886 INFO o.a.j.r.Summariser: summary =    102 in 00:03:50 =    0.4/s Avg: 19855 Min:  2388 Max: 40899 Err:     0 (0.00%)
+2018-05-23 13:36:01,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:02,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:03,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:04,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:05,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:05,863 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-26
+2018-05-23 13:36:06,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:07,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:08,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:09,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:10,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:10,866 INFO o.a.j.t.JMeterThread: Thread started: jp@gc Ultima Thread - Meta Allergen Only 1-25
+2018-05-23 13:36:11,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:12,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:13,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:14,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:15,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:16,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:17,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:18,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:19,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:20,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:21,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:22,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:23,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:24,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:25,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:26,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:27,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:28,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:29,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:30,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:31,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:32,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:32,836 INFO o.a.j.r.Summariser: summary +     13 in 00:00:32 =    0.4/s Avg: 46176 Min: 41439 Max: 55194 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
+2018-05-23 13:36:32,836 INFO o.a.j.r.Summariser: summary =    115 in 00:04:22 =    0.4/s Avg: 22830 Min:  2388 Max: 55194 Err:     0 (0.00%)
+2018-05-23 13:36:33,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:34,817 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:35,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:36,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:37,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:38,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:39,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:40,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:41,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:42,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:43,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:44,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:45,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:46,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:47,816 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:48,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:49,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:50,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:51,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:52,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:53,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:54,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:55,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:56,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:57,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:58,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:36:59,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:00,014 INFO o.a.j.r.Summariser: summary +      6 in 00:00:27 =    0.2/s Avg: 67459 Min: 55109 Max: 73863 Err:     0 (0.00%) Active: 32 Started: 32 Finished: 0
+2018-05-23 13:37:00,014 INFO o.a.j.r.Summariser: summary =    121 in 00:04:49 =    0.4/s Avg: 25043 Min:  2388 Max: 73863 Err:     0 (0.00%)
+2018-05-23 13:37:00,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:01,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:02,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:03,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:04,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:05,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:06,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:07,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:08,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:09,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:10,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:11,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:12,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:13,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:14,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:15,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:16,815 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:17,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:18,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:19,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:20,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:21,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:22,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:23,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:24,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:25,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:26,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:27,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:28,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:29,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:30,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:31,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:32,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:33,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:34,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:35,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:36,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:37,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:37,952 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-19
+2018-05-23 13:37:37,952 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-19
+2018-05-23 13:37:38,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:39,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:40,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:41,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:42,758 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-29
+2018-05-23 13:37:42,758 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-29
+2018-05-23 13:37:42,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:43,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:44,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:45,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:46,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:47,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:48,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:49,814 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:50,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:51,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:52,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:53,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:54,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:55,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:56,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:57,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-24
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-24
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-18
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-18
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-28
+2018-05-23 13:37:58,506 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-28
+2018-05-23 13:37:58,509 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-14
+2018-05-23 13:37:58,510 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-14
+2018-05-23 13:37:58,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:37:59,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:00,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:01,027 INFO o.a.j.r.Summariser: summary +      8 in 00:01:01 =    0.1/s Avg: 113413 Min: 70925 Max: 126615 Err:     5 (62.50%) Active: 26 Started: 32 Finished: 6
+2018-05-23 13:38:01,027 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-6
+2018-05-23 13:38:01,027 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-6
+2018-05-23 13:38:01,027 INFO o.a.j.r.Summariser: summary =    129 in 00:05:50 =    0.4/s Avg: 30524 Min:  2388 Max: 126615 Err:     5 (3.88%)
+2018-05-23 13:38:01,028 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-1
+2018-05-23 13:38:01,028 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-1
+2018-05-23 13:38:01,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:02,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:03,518 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-17
+2018-05-23 13:38:03,518 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-27
+2018-05-23 13:38:03,518 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-17
+2018-05-23 13:38:03,518 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-27
+2018-05-23 13:38:03,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:04,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:05,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:06,812 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:07,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:08,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:09,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:10,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:11,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-13
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-23
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-4
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-23
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-13
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-10
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-26
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-10
+2018-05-23 13:38:12,593 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-26
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-16
+2018-05-23 13:38:12,593 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-16
+2018-05-23 13:38:12,592 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-4
+2018-05-23 13:38:12,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:13,488 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-25
+2018-05-23 13:38:13,488 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-25
+2018-05-23 13:38:13,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:14,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:15,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:16,606 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-22
+2018-05-23 13:38:16,606 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-22
+2018-05-23 13:38:16,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:17,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:18,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:19,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:20,811 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:21,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:22,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:23,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:24,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:25,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:26,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:27,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:28,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:29,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:30,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:31,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:32,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:33,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:34,297 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-9
+2018-05-23 13:38:34,298 INFO o.a.j.r.Summariser: summary +     12 in 00:00:33 =    0.4/s Avg: 125401 Min: 121332 Max: 135727 Err:    12 (100.00%) Active: 14 Started: 32 Finished: 18
+2018-05-23 13:38:34,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-2
+2018-05-23 13:38:34,301 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-2
+2018-05-23 13:38:34,300 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-9
+2018-05-23 13:38:34,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-21
+2018-05-23 13:38:34,301 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-21
+2018-05-23 13:38:34,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-12
+2018-05-23 13:38:34,301 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-12
+2018-05-23 13:38:34,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-32
+2018-05-23 13:38:34,301 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-15
+2018-05-23 13:38:34,302 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-32
+2018-05-23 13:38:34,301 INFO o.a.j.r.Summariser: summary =    141 in 00:06:23 =    0.4/s Avg: 38598 Min:  2388 Max: 135727 Err:    17 (12.06%)
+2018-05-23 13:38:34,302 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-5
+2018-05-23 13:38:34,303 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-5
+2018-05-23 13:38:34,304 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-15
+2018-05-23 13:38:34,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:35,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:36,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:37,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:38,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:39,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:40,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:41,809 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:42,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:43,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:44,810 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:45,813 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:46,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:47,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:48,105 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-7
+2018-05-23 13:38:48,106 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-7
+2018-05-23 13:38:48,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:49,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:50,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:51,808 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:52,783 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-3
+2018-05-23 13:38:52,783 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-8
+2018-05-23 13:38:52,783 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-8
+2018-05-23 13:38:52,783 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-30
+2018-05-23 13:38:52,783 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-30
+2018-05-23 13:38:52,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-20
+2018-05-23 13:38:52,784 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-20
+2018-05-23 13:38:52,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-31
+2018-05-23 13:38:52,784 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-3
+2018-05-23 13:38:52,784 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-31
+2018-05-23 13:38:52,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc Ultima Thread - Meta Allergen Only 1-11
+2018-05-23 13:38:52,785 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc Ultima Thread - Meta Allergen Only 1-11
+2018-05-23 13:38:52,785 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-05-23 13:38:52,785 INFO o.a.j.v.b.BackendListener: Worker ended
+2018-05-23 13:38:52,786 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: Connection refused (Connection refused)
+2018-05-23 13:38:52,787 INFO o.a.j.r.Summariser: summary +     13 in 00:00:18 =    0.7/s Avg: 123985 Min: 112229 Max: 136785 Err:    13 (100.00%) Active: 0 Started: 32 Finished: 32
+2018-05-23 13:38:52,787 INFO o.a.j.r.Summariser: summary =    154 in 00:06:42 =    0.4/s Avg: 45806 Min:  2388 Max: 136785 Err:    30 (19.48%)
+2018-05-23 13:38:52,787 INFO o.a.j.JMeter: Generating Dashboard
+2018-05-23 13:38:52,788 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2018-05-23 13:38:52,796 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2018-05-23 13:38:52,873 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2018-05-23 13:38:52,874 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2018-05-23 13:38:52,875 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2018-05-23 13:38:52,875 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2018-05-23 13:38:52,876 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2018-05-23 13:38:52,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2018-05-23 13:38:52,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2018-05-23 13:38:52,880 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2018-05-23 13:38:52,889 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2018-05-23 13:38:52,889 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2018-05-23 13:38:52,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2018-05-23 13:38:52,890 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2018-05-23 13:38:52,895 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2018-05-23 13:38:52,895 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1078 samples
+2018-05-23 13:38:52,895 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2018-05-23 13:38:52,895 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2018-05-23 13:38:52,895 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2018-05-23 13:38:52,896 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2018-05-23 13:38:52,896 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2018-05-23 13:38:52,898 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2018-05-23 13:38:52,898 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2018-05-23 13:38:52,898 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2018-05-23 13:38:52,899 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2018-05-23 13:38:52,899 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2156 samples
+2018-05-23 13:38:52,899 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 462 samples
+2018-05-23 13:38:52,899 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 154 samples
+2018-05-23 13:38:52,899 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 154 samples produced in 84ms on channel 0
+2018-05-23 13:38:52,899 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2018-05-23 13:38:52,902 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest/metaAllergenParallelTestGraphs
+2018-05-23 13:38:52,956 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /Users/stakimoto/Desktop/proj/vista/VICSServer/tests/restStressTest/metaAllergenParallelTestGraphs, creating folder structure
+2018-05-23 13:38:53,222 INFO o.a.j.JMeter: Dashboard generated
