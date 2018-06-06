@@ -1,4 +1,4 @@
-[go somewhere](metaEndpoint_success/index.html)
+[go somewhere](vitalAllergyWOcreateVitals/index.html)
 ----------
 # ABOVE THIS IS THE MAGIC
 
