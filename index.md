@@ -1,11 +1,4 @@
-## META
-
-[**metaAllergen19_error**](repo/metaAllergen19_error/index.html)<br>
-[**metaAllergen22_error**](repo/metaAllergen22_error/index.html)<br>
-[**metaEndpoints**](repo/metaEndpoints/index.html)<br>
-
 ## PATIENT
-
 #### Data
 
 [**patientData00a**](repo/patientData00a/index.html)<br>
@@ -51,15 +44,13 @@
 [**patientVitalAllergy480_error**](repo/patientVitalAllergy480_error/index.html)<br>
 [**patientVitalAllergy600_error**](repo/patientVitalAllergy600_error/index.html)<br>
 
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/sidjtd/documentation/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## META
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[**metaAllergen19_error**](repo/metaAllergen19_error/index.html)<br>
+[**metaAllergen22_error**](repo/metaAllergen22_error/index.html)<br>
+[**metaEndpoints**](repo/metaEndpoints/index.html)<br>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -78,13 +69,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sidjtd/documentation/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
