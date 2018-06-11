@@ -20,9 +20,11 @@
 [**patientDataParallelTest200**](repo/patientDataParallelTest200/index.html)<br>
 [**patientParallelTest_error**](repo/patientParallelTest_error/index.html)<br>
 
+#### Problem
+
 * Problem Domain endpoints. The number in filename signify total simultaneous users in the test. 
 
-#### Problem
+
 [**patientProblem90**](repo/patientProblem90/index.html)<br>
 [**patientProblem125**](repo/patientProblem125/index.html)<br>
 [**patientProblem150_error**](repo/patientProblem150_error/index.html)<br>
@@ -38,9 +40,12 @@
 [**patientProblemParallelTest85**](repo/problemParallelTest85/index.html)<br>
 [**patientProblemParallelTest95_error**](repo/problemParallelTest95_error/index.html)<br>
 
+#### Vital Allergy
+
+
 * Vital/Allergy Domain endpoints. If filename lacks "error" in it, the number in filename signify total simultaneous users in the test.
 * WO - abbreviated form of "without" (eg: WOCreateVitals = disabled endpoint createVitals and possibly other endpoints during this test run)
-#### Vital Allergy
+
 [**patientvitalAllergy_WOCreateVitals120**](repo/patientvitalAllergy_WOCreateVitals120/index.html)<br>
 [**patientvitalAllergy_WOCreateVitals600**](repo/patientvitalAllergy_WOCreateVitals600/index.html)<br>
 [**patientvitalAllergy_WOCreateVitals3000**](repo/patientvitalAllergy_WOCreateVitals3000/index.html)<br>
