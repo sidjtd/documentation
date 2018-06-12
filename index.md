@@ -43,7 +43,7 @@
 #### Vital Allergy
 
 
-* Vital/Allergy Domain endpoints. If filename lacks "error" in it, the number in filename signify total simultaneous users in the test.
+* Vital/Allergy Domain endpoints. The number in filename signify total simultaneous users in the test.
 * WO - abbreviated form of "without" (eg: WOCreateVitals = disabled endpoint createVitals and possibly other endpoints during this test run)
 
 [**patientvitalAllergy_WOCreateVitals120**](repo/patientvitalAllergy_WOCreateVitals120/index.html)<br>
