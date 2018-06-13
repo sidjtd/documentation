@@ -3,7 +3,7 @@
 #### Highlighted Results 
 
  * Various Domain Types
- * (As shown on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results))
+ * (As featured on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results))
 
 [ Meta Type Test Results - Endpoints ](https://sidjtd.github.io/documentation/metaEndpoint/index.html)<br>
 [ Meta Type Test Results - Allergen Endpoint](https://sidjtd.github.io/documentation/metaAllergenEndpoint/index.html)<br>
