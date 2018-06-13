@@ -1,6 +1,4 @@
-## PATIENT (MAY 2018 TEST BATCH)
-
-#### Highlighted Results 
+### Highlighted Results 
 
  * Various Domain Types
  * (As featured on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results))
@@ -12,6 +10,9 @@
 [ Patient Type Test Results - Vital & Allergy Domain](https://sidjtd.github.io/documentation/patientVitalAllergyEndpoint/index.html)<br>
 [ Patient Type Test Results - Vital & Allergy Domain (Without Create/Delete Vitals)](https://sidjtd.github.io/documentation/patientVitalAllergyWOcreateVitals/index.html)<br>
 [ Patient Type Test Results - Vital List Endpoint](https://sidjtd.github.io/documentation/patientVitalList/index.html)<br>
+
+
+## PATIENT (MAY 2018 TEST BATCH)
 
 #### Data
 
