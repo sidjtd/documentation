@@ -5,13 +5,13 @@
  * Various Domain Types
  * (As shown on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results))
 
-[ Meta Type - Allergen Endpoint Only](https://sidjtd.github.io/documentation/metaAllergenEndpoint/index.html)<br>
-[ Patient Type - Data Domain](https://sidjtd.github.io/documentation/patientDataEndpoint/index.html)<br>
-[ Patient Type - Problem Domain](https://sidjtd.github.io/documentation/patientProblem/index.html)<br>
-[ Patient Type - Vital & Allergy Domain](https://sidjtd.github.io/documentation/patientVitalAllergyEndpoint/index.html)<br>
-[ Patient Type - Vital & Allergy Domain (Without Create/Delete Vitals)](https://sidjtd.github.io/documentation/patientVitalAllergyWOcreateVitals/index.html)<br>
-[ Patient Type - Vital List Endpoint](https://sidjtd.github.io/documentation/patientVitalList/index.html)<br>
-
+[ Meta Type Test Results - Endpoints ](https://sidjtd.github.io/documentation/metaEndpoint/index.html)
+[ Meta Type Test Results - Allergen Endpoint Only](https://sidjtd.github.io/documentation/metaAllergenEndpoint/index.html)<br>
+[ Patient Type Test Results - Data Domain](https://sidjtd.github.io/documentation/patientDataEndpoint/index.html)<br>
+[ Patient Type Test Results - Problem Domain](https://sidjtd.github.io/documentation/patientProblem/index.html)<br>
+[ Patient Type Test Results - Vital & Allergy Domain](https://sidjtd.github.io/documentation/patientVitalAllergyEndpoint/index.html)<br>
+[ Patient Type Test Results - Vital & Allergy Domain (Without Create/Delete Vitals)](https://sidjtd.github.io/documentation/patientVitalAllergyWOcreateVitals/index.html)<br>
+[ Patient Type Test Results - Vital List Endpoint](https://sidjtd.github.io/documentation/patientVitalList/index.html)<br>
 
 #### Data
 
