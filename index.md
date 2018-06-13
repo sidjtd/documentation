@@ -1,6 +1,6 @@
 ## PATIENT (MAY 2018 TEST BATCH)
 
-#### Highlighted Test Results (As shown on on (github.com/vistadataproject/VAMDockerDev/wiki)[https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results]
+#### Highlighted Test Results (As shown on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results)
 
 #### Data
 
