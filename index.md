@@ -1,5 +1,8 @@
-## PATIENT
+## PATIENT (MAY 2018 TEST BATCH)
 #### Data
+
+* Data Domain endpoints. If filename lacks "error" in it, the number in filename signify total simultaneous users in the test.
+* If the test conditions resulted in error, number represents a total percentage of errors given by the endpoints tested.
 
 [**patientData00a**](repo/patientData00a/index.html)<br>
 [**patientData00b**](repo/patientData00b/index.html)<br>
@@ -18,6 +21,10 @@
 [**patientParallelTest_error**](repo/patientParallelTest_error/index.html)<br>
 
 #### Problem
+
+* Problem Domain endpoints. The number in filename signify total simultaneous users in the test. 
+
+
 [**patientProblem90**](repo/patientProblem90/index.html)<br>
 [**patientProblem125**](repo/patientProblem125/index.html)<br>
 [**patientProblem150_error**](repo/patientProblem150_error/index.html)<br>
@@ -28,12 +35,17 @@
 [**patientProblem500_error**](repo/patientProblem500_error/index.html)<br>
 [**patientProblem100**](repo/patientProblem100/index.html)<br>
 [**patientProblem500**](repo/patientProblem500/index.html)<br>
-[**problemDataTest1500**](repo/problemDataTest1500/index.html)<br>
-[**problemParallelTest50**](repo/problemParallelTest50/index.html)<br>
-[**problemParallelTest85**](repo/problemParallelTest85/index.html)<br>
-[**problemParallelTest95_error**](repo/problemParallelTest95_error/index.html)<br>
+[**patientProblem1500**](repo/patientProblem1500/index.html)<br>
+[**patientProblemParallelTest50**](repo/problemParallelTest50/index.html)<br>
+[**patientProblemParallelTest85**](repo/problemParallelTest85/index.html)<br>
+[**patientProblemParallelTest95_error**](repo/problemParallelTest95_error/index.html)<br>
 
 #### Vital Allergy
+
+
+* Vital/Allergy Domain endpoints. The number in filename signify total simultaneous users in the test.
+* WO - abbreviated form of "without" (eg: WOCreateVitals = disabled endpoint createVitals and possibly other endpoints during this test run)
+
 [**patientvitalAllergy_WOCreateVitals120**](repo/patientvitalAllergy_WOCreateVitals120/index.html)<br>
 [**patientvitalAllergy_WOCreateVitals600**](repo/patientvitalAllergy_WOCreateVitals600/index.html)<br>
 [**patientvitalAllergy_WOCreateVitals3000**](repo/patientvitalAllergy_WOCreateVitals3000/index.html)<br>
@@ -45,7 +57,9 @@
 [**patientVitalAllergy600_error**](repo/patientVitalAllergy600_error/index.html)<br>
 
 
-## META
+## META (MAY 2018 TEST BATCH)
+
+* Multiple Domain Meta-type endpoints. If "Allergen" is in filename, it is only testing the Allergy Domain "Allergen" endpoint exclusively
 
 [**metaAllergen19_error**](repo/metaAllergen19_error/index.html)<br>
 [**metaAllergen22_error**](repo/metaAllergen22_error/index.html)<br>
