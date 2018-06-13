@@ -1,4 +1,7 @@
 ## PATIENT (MAY 2018 TEST BATCH)
+
+#### Highlighted Test Results (As shown on on (github.com/vistadataproject/VAMDockerDev/wiki)[https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results]
+
 #### Data
 
 * Data Domain endpoints. If filename lacks "error" in it, the number in filename signify total simultaneous users in the test.
