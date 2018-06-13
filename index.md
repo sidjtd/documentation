@@ -6,6 +6,7 @@
  * (As shown on on [github.com/vistadataproject/VAMDockerDev/wiki](https://github.com/vistadataproject/VAMDockerDev/wiki/VICS-Endpoint-Stress-Test-Results))
 
 [ **Meta Type** - Endpoint Results](https://sidjtd.github.io/documentation/metaEndpoint/index.html)
+
 [ **Meta Type** - Allergen Endpoint Only](https://sidjtd.github.io/documentation/metaAllergenEndpoint/index.html)
 
 [ **Patient Type** - Data Domain](https://sidjtd.github.io/documentation/patientDataEndpoint/index.html)
